@@ -1,0 +1,105 @@
+figure {
+    width: 600px;
+    display: block; 
+   }
+   figcaption{
+       font-size: 30px;
+       font-weight: 1000;
+   }
+
+body{
+    background-color: #C4E3CB;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#shapka_all{
+    background-color: #baecc6;
+}
+#shapka{
+    text-align: center;
+    font-size: xx-large;
+}
+#panel{
+    font-size: x-large;
+}
+#panel_cil{
+    margin-top: 10px;
+    font-size: large;
+}
+.main{
+    height: 400px;
+    display: flex;
+}
+.main_text{
+    margin-top: 60px;
+    background-color: rgb(192, 236, 192);
+}
+.main_text_aut{
+    background-color: rgb(166, 166, 235);
+}
+.main_text_tiz{
+    background-color: rgb(146, 146, 209);
+    margin-top: 20px;
+    font-size: large;
+}
+
+.comments:nth-child(even){
+    position:relative;
+    display: flex;
+    min-height: 110px;
+    min-width: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: radial-gradient(50% 50%,white, #ffc0cb);
+    box-shadow: 5px 5px 20px;
+}
+.comments:nth-child(odd){
+    position:relative;
+    display: flex;
+    min-height: 110px;
+    min-width: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: radial-gradient(50% 50%,white, #ca9aa3);
+    box-shadow: 5px 5px 20px;
+}
+.comments:hover{
+    text-shadow: 0 0 0 black, 0 0 1em red;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 7px 7px 20px;
+}
+img{
+    border-radius: 10px;
+}
+.comment{
+    margin-left: 10px;
+}
+#inp_comment_main{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: radial-gradient(50% 50%,white, #ca9aa3);
+    box-shadow: 5px 5px 20px;
+    padding-left: 10px;
+}
+
+.input_com{
+    text-align: center;
+}
+
